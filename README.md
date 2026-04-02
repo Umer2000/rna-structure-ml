@@ -3,9 +3,13 @@
 This project presents a machine learning-based RNA structure prediction tool that combines deep learning with bioinformatics workflows.
 It takes RNA sequences in FASTA format and predicts 3D structural coordinates using a trained neural model.
 The project evolves from a baseline heuristic approach into a fully functional CLI tool, integrating:
+
 •	Deep learning (PyTorch)
+
 •	Sequence modeling (BiLSTM + Attention)
+
 •	Bioinformatics pipelines (Biopython)
+
 •	Structured output generation (CSV)
 ________________________________________
 🎯 Key Features
