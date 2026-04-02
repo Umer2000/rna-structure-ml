@@ -68,13 +68,19 @@ rna-structure-ml/
 │── README.md
 ________________________________________
 🚀 Installation
+
 1. Clone repository
-git clone <your-repo-url>
+  
+ git clone <your-repo-url>
 cd rna-structure-ml
+
 2. Create virtual environment
+    
 python -m venv venv
 .\ven  v\Scripts\Activate
+
 3. Install dependencies
+   
 pip install torch pandas biopython matplotlib
 ________________________________________
 ▶️ Usage
