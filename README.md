@@ -13,7 +13,7 @@ The project evolves from a baseline heuristic approach into a fully functional C
 •	Bioinformatics pipelines (Biopython)
 
 •	Structured output generation (CSV)
-________________________________________
+
 ## 🎯 Key Features
 
 •	🧬 FASTA input support (via Biopython)
@@ -27,7 +27,7 @@ ________________________________________
 •	🖥️ Command-line interface (CLI)
 
 •	⚙️ Modular and extensible codebase
-________________________________________
+
 ## 🧠 Model Architecture
 
 The model consists of:
@@ -42,7 +42,7 @@ The model consists of:
 
 
 •	Fully Connected Layer → predicts 3D coordinates
-________________________________________
+
 ## 📂 Project Structure
 
 rna-structure-ml/
@@ -66,7 +66,7 @@ rna-structure-ml/
 ├── visualize.py
 
 ├── README.md
-________________________________________
+
 ## 🚀 Installation
 
 1. Clone repository
@@ -84,7 +84,7 @@ python -m venv venv
 3. Install dependencies
    
 pip install torch pandas biopython matplotlib
-________________________________________
+
 ## ▶️ Usage
 
 🔹 Train the model
@@ -96,7 +96,7 @@ This will:
 •	train the model
 
 •	save weights as model.pth
-________________________________________
+
 ## 🔹 Run prediction (CLI)
 
 python src/predict.py --input sample.fasta --output results.csv
