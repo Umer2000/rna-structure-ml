@@ -111,7 +111,7 @@ This will:
 
 python src/predict.py --input sample.fasta --output results.csv
 
-##📄 Output format
+**📄 Output format**
 
 sequence_id, position, residue, x, y, z
 
