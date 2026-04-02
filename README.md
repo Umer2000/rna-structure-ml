@@ -47,25 +47,25 @@ ________________________________________
 
 rna-structure-ml/
 
-│── data/
+├── data/
 
-│── sample.fasta
+├── sample.fasta
 
-│── model.pth
+├── model.pth
 
-│── src/
+├── src/
 
-│   ├── dataset.py
+├── dataset.py
 
-│   ├── model.py
+├── model.py
 
-│   ├── train.py
+├── train.py
 
-│   ├── predict.py
+├── predict.py
 
-│   ├── visualize.py
+├── visualize.py
 
-│── README.md
+├── README.md
 ________________________________________
 ## 🚀 Installation
 
