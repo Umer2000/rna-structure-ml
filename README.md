@@ -1,6 +1,6 @@
 ## 🧬 RNA Structure Prediction Tool (ML + Bioinformatics)**
 
-📌 Overview
+## 📌 Overview
 
 This project presents a machine learning-based RNA structure prediction tool that combines deep learning with bioinformatics workflows.
 It takes RNA sequences in FASTA format and predicts 3D structural coordinates using a trained neural model.
@@ -14,7 +14,7 @@ The project evolves from a baseline heuristic approach into a fully functional C
 
 •	Structured output generation (CSV)
 ________________________________________
-🎯 Key Features
+## 🎯 Key Features
 
 •	🧬 FASTA input support (via Biopython)
 
@@ -28,7 +28,7 @@ ________________________________________
 
 •	⚙️ Modular and extensible codebase
 ________________________________________
-🧠 Model Architecture
+## 🧠 Model Architecture
 
 The model consists of:
 
@@ -43,7 +43,7 @@ The model consists of:
 
 •	Fully Connected Layer → predicts 3D coordinates
 ________________________________________
-📂 Project Structure
+## 📂 Project Structure
 
 rna-structure-ml/
 
@@ -67,7 +67,7 @@ rna-structure-ml/
 
 │── README.md
 ________________________________________
-🚀 Installation
+## 🚀 Installation
 
 1. Clone repository
   
@@ -85,7 +85,7 @@ python -m venv venv
    
 pip install torch pandas biopython matplotlib
 ________________________________________
-▶️ Usage
+## ▶️ Usage
 
 🔹 Train the model
 
@@ -97,7 +97,7 @@ This will:
 
 •	save weights as model.pth
 ________________________________________
-🔹 Run prediction (CLI)
+## 🔹 Run prediction (CLI)
 
 python src/predict.py --input sample.fasta --output results.csv
 ________________________________________
@@ -111,7 +111,7 @@ rna_1,2, C,0.34,0.22,0.88
 
 ...
 ________________________________________
-🔍 Interpretability
+## 🔍 Interpretability
 
 The project includes attention visualization:
 
@@ -121,7 +121,7 @@ The project includes attention visualization:
 
 •	Reveals limitations under weak supervision
 ________________________________________
-📊 Key Findings
+## 📊 Key Findings
 
 •	Attention mechanisms may collapse under weak supervision
 
@@ -129,7 +129,7 @@ ________________________________________
 
 •	Sequence models can learn structural embeddings from raw RNA
 ________________________________________
-⚠️ Limitations
+## ⚠️ Limitations
 
 •	Uses pseudo-labels (not experimental structures)
 
@@ -137,7 +137,7 @@ ________________________________________
 
 •	Attention interpretability depends on data quality
 ________________________________________
-🚀 Future Work
+## 🚀 Future Work
 
 •	Integrate real RNA structure datasets (PDB)
 
@@ -147,7 +147,7 @@ ________________________________________
 
 •	Export predictions in PDB format
 ________________________________________
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 •	Python
 
@@ -159,7 +159,7 @@ ________________________________________
 
 •	Matplotlib
 ________________________________________
-🧠 Learning Outcomes
+## 🧠 Learning Outcomes
 
 •	Built end-to-end ML pipeline
 
@@ -169,11 +169,11 @@ ________________________________________
 
 •	Diagnosed model behavior and limitations
 ________________________________________
-📌 Conclusion
+## 📌 Conclusion
 
 This project demonstrates how deep learning models can be integrated into practical bioinformatics tools, while also highlighting the importance of data quality and model interpretability.
 ________________________________________
-🤝 Acknowledgment
+## 🤝 Acknowledgment
 
 Inspired by RNA structure prediction challenges and the Stanford RNA Folding competition.
 
