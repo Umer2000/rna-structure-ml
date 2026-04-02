@@ -79,7 +79,7 @@ cd rna-structure-ml
     
 python -m venv venv
 
-.\ven  v\Scripts\Activate
+.\venv\Scripts\Activate
 
 3. Install dependencies
    
