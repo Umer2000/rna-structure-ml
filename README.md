@@ -1,6 +1,7 @@
 🧬 RNA Structure Prediction Tool (ML + Bioinformatics)
 
 📌 Overview
+
 This project presents a machine learning-based RNA structure prediction tool that combines deep learning with bioinformatics workflows.
 It takes RNA sequences in FASTA format and predicts 3D structural coordinates using a trained neural model.
 The project evolves from a baseline heuristic approach into a fully functional CLI tool, integrating:
@@ -14,31 +15,53 @@ The project evolves from a baseline heuristic approach into a fully functional C
 •	Structured output generation (CSV)
 ________________________________________
 🎯 Key Features
+
 •	🧬 FASTA input support (via Biopython)
+
 •	🤖 Deep learning model for RNA coordinate prediction
+
 •	🧠 Attention-based sequence modeling
+
 •	📊 Structured output (CSV with coordinates)
+
 •	🖥️ Command-line interface (CLI)
+
 •	⚙️ Modular and extensible codebase
 ________________________________________
 🧠 Model Architecture
+
 The model consists of:
+
 •	Embedding Layer → encodes nucleotides (A, C, G, U)
+
 •	BiLSTM Encoder → captures sequence dependencies
+
 •	Multi-head Self-Attention → models global interactions
+
 •	Fully Connected Layer → predicts 3D coordinates
 ________________________________________
 📂 Project Structure
+
 rna-structure-ml/
+
 │── data/
+
 │── sample.fasta
+
 │── model.pth
+
 │── src/
+
 │   ├── dataset.py
+
 │   ├── model.py
+
 │   ├── train.py
+
 │   ├── predict.py
+
 │   ├── visualize.py
+
 │── README.md
 ________________________________________
 🚀 Installation
