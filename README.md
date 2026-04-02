@@ -123,10 +123,14 @@ rna_1,2, C,0.34,0.22,0.88
 ## 🧪 Related Work & Background
 This project builds upon my earlier work in RNA structure modeling during the Stanford RNA 3D Folding Challenge.
 In that work, I:
+
 •	developed a baseline using distance heuristics and MDS
 •	explored sequence-to-structure modeling approaches
+
 •	worked with real RNA sequence datasets
+
 This project extends that work into a trainable deep learning pipeline with bioinformatics integration.
+
 🔗 Kaggle Notebook:
 https://www.kaggle.com/code/umeranis/rna-baseline-v1
 
