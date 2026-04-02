@@ -79,7 +79,7 @@ rna-structure-ml/
 1. Clone repository
   
  git clone
- <your-repo-url>
+ <https://github.com/Umer2000/rna-structure-ml>
 cd rna-structure-ml
 
 2. Create virtual environment
@@ -110,7 +110,7 @@ This will:
 
 python src/predict.py --input sample.fasta --output results.csv
 
-📄 Output format
+##📄 Output format
 
 sequence_id, position, residue, x, y, z
 
@@ -119,6 +119,17 @@ rna_1,1, A,0.12,0.55,0.91
 rna_1,2, C,0.34,0.22,0.88
 
 ...
+
+## 🧪 Related Work & Background
+This project builds upon my earlier work in RNA structure modeling during the Stanford RNA 3D Folding Challenge.
+In that work, I:
+•	developed a baseline using distance heuristics and MDS
+•	explored sequence-to-structure modeling approaches
+•	worked with real RNA sequence datasets
+This project extends that work into a trainable deep learning pipeline with bioinformatics integration.
+🔗 Kaggle Notebook:
+https://www.kaggle.com/code/umeranis/rna-baseline-v1
+
 
 
 ## 🔍 Interpretability
