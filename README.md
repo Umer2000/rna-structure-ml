@@ -14,6 +14,7 @@ The project evolves from a baseline heuristic approach into a fully functional C
 
 •	Structured output generation (CSV)
 
+
 ## 🎯 Key Features
 
 •	🧬 FASTA input support (via Biopython)
@@ -27,6 +28,7 @@ The project evolves from a baseline heuristic approach into a fully functional C
 •	🖥️ Command-line interface (CLI)
 
 •	⚙️ Modular and extensible codebase
+
 
 ## 🧠 Model Architecture
 
@@ -42,6 +44,7 @@ The model consists of:
 
 
 •	Fully Connected Layer → predicts 3D coordinates
+
 
 ## 📂 Project Structure
 
@@ -67,6 +70,7 @@ rna-structure-ml/
 
 ├── README.md
 
+
 ## 🚀 Installation
 
 1. Clone repository
@@ -85,6 +89,7 @@ python -m venv venv
    
 pip install torch pandas biopython matplotlib
 
+
 ## ▶️ Usage
 
 🔹 Train the model
@@ -97,10 +102,11 @@ This will:
 
 •	save weights as model.pth
 
+
 ## 🔹 Run prediction (CLI)
 
 python src/predict.py --input sample.fasta --output results.csv
-________________________________________
+
 📄 Output format
 
 sequence_id, position, residue, x, y, z
@@ -110,7 +116,8 @@ rna_1,1, A,0.12,0.55,0.91
 rna_1,2, C,0.34,0.22,0.88
 
 ...
-________________________________________
+
+
 ## 🔍 Interpretability
 
 The project includes attention visualization:
@@ -120,7 +127,8 @@ The project includes attention visualization:
 •	Helps analyze model behavior
 
 •	Reveals limitations under weak supervision
-________________________________________
+
+
 ## 📊 Key Findings
 
 •	Attention mechanisms may collapse under weak supervision
@@ -128,7 +136,8 @@ ________________________________________
 •	Proper masking and padding are critical
 
 •	Sequence models can learn structural embeddings from raw RNA
-________________________________________
+
+
 ## ⚠️ Limitations
 
 •	Uses pseudo-labels (not experimental structures)
@@ -136,7 +145,8 @@ ________________________________________
 •	Limited biological accuracy
 
 •	Attention interpretability depends on data quality
-________________________________________
+
+
 ## 🚀 Future Work
 
 •	Integrate real RNA structure datasets (PDB)
@@ -146,7 +156,8 @@ ________________________________________
 •	Extend to graph-based models (GNNs)
 
 •	Export predictions in PDB format
-________________________________________
+
+
 ## 🛠️ Tech Stack
 
 •	Python
@@ -158,7 +169,8 @@ ________________________________________
 •	Pandas / NumPy
 
 •	Matplotlib
-________________________________________
+
+
 ## 🧠 Learning Outcomes
 
 •	Built end-to-end ML pipeline
@@ -168,11 +180,13 @@ ________________________________________
 •	Implemented attention and self-attention
 
 •	Diagnosed model behavior and limitations
-________________________________________
+
+
 ## 📌 Conclusion
 
 This project demonstrates how deep learning models can be integrated into practical bioinformatics tools, while also highlighting the importance of data quality and model interpretability.
-________________________________________
+
+
 ## 🤝 Acknowledgment
 
 Inspired by RNA structure prediction challenges and the Stanford RNA Folding competition.
