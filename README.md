@@ -34,9 +34,12 @@ The model consists of:
 
 •	Embedding Layer → encodes nucleotides (A, C, G, U)
 
+
 •	BiLSTM Encoder → captures sequence dependencies
 
+
 •	Multi-head Self-Attention → models global interactions
+
 
 •	Fully Connected Layer → predicts 3D coordinates
 ________________________________________
