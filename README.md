@@ -1,4 +1,5 @@
 🧬 RNA Structure Prediction Tool (ML + Bioinformatics)
+
 📌 Overview
 This project presents a machine learning-based RNA structure prediction tool that combines deep learning with bioinformatics workflows.
 It takes RNA sequences in FASTA format and predicts 3D structural coordinates using a trained neural model.
